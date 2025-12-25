@@ -7,12 +7,25 @@ To write a Python program that handles an **IndexError** when trying to access a
 1. Define a list `list1` with some integer elements.
 2. Use a **try-except** block:
    - In the `try` block, attempt to access an index that is out of range (e.g., `list1[5]`).
-   - In the `except` block, catch the error and print a custom message `"You're out of list range"`.
+   - In the `except` block, catch the error and print a custom message `"check index range"`.
 3. Print the result based on whether the index access succeeds or fails.
 
 ## 🧾 Program
-Add code here
+
+try:
+    
+    l=[]
+    
+    print[l[4]]
+
+except IndexError:
+
+    print("check index range")
 
 ## Output
 
+<img width="753" height="163" alt="image" src="https://github.com/user-attachments/assets/f116caaf-7542-4659-bcfb-ed1fd81e79e3" />
+
+
 ## Result
+Thus the program is simulated sucessfully
